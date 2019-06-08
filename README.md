@@ -15,4 +15,13 @@ basis@vector:~$ rinko 역에서 사복으로 갈아입고 가야겠어요
 역, 역에서.. 사복으로.. 갈아입고.. 가야겠어요, 
 basis@vector:~$ rinko 잘 자고 좋은 꿈 꿔요
 잘 자, 자고.. 좋은, 꿈.. 꿔요..
+
+
+how to install:
+$ mkdir -p $HOME/bin
+$ cd $HOME/bin
+$ wget -nv https://raw.githubusercontent.com/basis-vec/rinko/master/rinko
+$ chmod +rx rinko
+$ export PATH="$HOME/bin:$PATH"
+$ alias rinrin=rinko
 </pre>
